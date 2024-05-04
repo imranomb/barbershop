@@ -1,0 +1,15 @@
+.haircuts
+{
+    background-color: #0D0B0B;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.layout 
+{
+    width: 80%;
+    background-color: #0D0B0B;
+    display: flex;
+    gap: 0.5rem;
+}

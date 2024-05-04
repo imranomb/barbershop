@@ -1,0 +1,63 @@
+.reservation
+{
+    width: 100%;
+    background-color: #0D0B0B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    & img 
+    {
+        border: 2px solid white;
+    }
+    & .naslov 
+    {
+        transform: rotate(-10deg) !important;
+        color: white;
+        font-size: 2.4rem;
+    }
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.info
+{
+    position: relative;
+    & .person 
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background-color: white;
+        & span 
+        {
+            color: black;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+    }
+}
+.form 
+{
+    & input {
+        padding: 10px;
+        border: 1px solid black;
+        color: white;
+        border-radius: 10px;
+    }
+    & button {
+        padding: 10px;
+        border-radius: 10px;
+        margin-left: 7px;
+    }
+    & label {
+        display: block;
+        font-size: 1rem;
+        color: white;
+        font-weight: bold;
+    }
+}
